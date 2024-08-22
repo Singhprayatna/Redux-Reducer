@@ -3,6 +3,8 @@ const createStore = redux.createStore
 
 const CAKE_ORDERED = "CAKE_ORDERED"
 const CAKE_RESTOKED = "CAKE_RESTOKED"
+console.log("hello ");
+
 
 function orderCake() {
     return{
