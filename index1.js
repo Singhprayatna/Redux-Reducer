@@ -286,12 +286,63 @@
 // FUNCTION
 
 
-function say(message) {
-    console.log(message);
+// function say(message) {
+//     console.log(message);
     
     
-}
-return say ('Hello');
+// }
+// return say ('Hello');
+
+// function compareBy(propertyName) {
+//     return function (a, b) {
+//       let x = a[propertyName],
+//         y = b[propertyName];
+  
+//       if (x > y) {
+//         return 1;
+//       } else if (x < y) {
+//         return -1;
+//       } else {
+//         return 0;
+//       }
+//     };
+//   }
+//   let products = [
+//     { name: 'iPhone', price: 900 },
+//     { name: 'Samsung Galaxy', price: 850 },
+//     { name: 'Sony Xperia', price: 700 },
+//   ];
+  
+//   // sort products by name
+//   console.log('Products sorted by name:');
+//   products.sort(compareBy('name'));
+  
+//   console.table(products);
+  
+//   // sort products by price
+//   console.log('Products sorted by price:');
+//   products.sort(compareBy('price'));
+//   console.table(products);
+
+let person = {
+    firstName: 'John',
+    lastName: 'Cina',
+    greet: function() {
+        console.log('Hello , world !');
+        
+    },
+
+    getFullName: function () {
+        return this.firstName +  ' '  + this.lastName;
+    }
+
+
+};
+
+console.log(person.getFullName());
+
+  
+
 
 
 
